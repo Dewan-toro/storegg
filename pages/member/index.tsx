@@ -55,7 +55,7 @@ export default function Member() {
                 />
               </svg>
               <p className="item-title m-0">
-                <a href="/#" className="text-lg text-decoration-none">
+                <a href="/member" className="text-lg text-decoration-none">
                   Overview
                 </a>
               </p>
@@ -93,7 +93,7 @@ export default function Member() {
               </svg>
               <p className="item-title m-0">
                 <a
-                  href="../member/transactions.html"
+                  href="/member/transactions"
                   className="text-lg text-decoration-none"
                 >
                   Transactions

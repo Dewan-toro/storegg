@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/alt-text */
 export default function TransactionsDetail() {
   return (
     <section className="transactions-detail overflow-auto">

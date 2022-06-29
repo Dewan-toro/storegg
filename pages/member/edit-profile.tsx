@@ -1,6 +1,3 @@
-/* eslint-disable jsx-a11y/no-redundant-roles */
-/* eslint-disable jsx-a11y/label-has-associated-control */
-/* eslint-disable jsx-a11y/alt-text */
 export default function EditProfile() {
   return (
     <section className="edit-profile overflow-auto">
