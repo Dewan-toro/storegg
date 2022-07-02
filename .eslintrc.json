@@ -24,6 +24,7 @@
         "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
         "react/react-in-jsx-scope": "off",
         "jsx-a11y/anchor-is-valid": "off",
-        "eslint-disable jsx-a11y/alt-text": "off"
+        "eslint-disable jsx-a11y/alt-text": "off",
+        "react/jsx-props-no-spreading": "off"
     }
 }
