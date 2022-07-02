@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
-interface InputProps {
+export interface InputProps {
     label: string;
 
 }
