@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/label-has-associated-control */
 import Image from 'next/image';
 import Link from 'next/link';
 import SignInForm from '../components/organisms/SignInForm';

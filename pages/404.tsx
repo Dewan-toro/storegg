@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 export default function Custom404() {
   return (
     <section className="not-found mx-auto pt-145 pb-md-212 pb-100">

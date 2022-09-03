@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import AOS from 'aos';
+import Head from 'next/head';
 import Navbar from '../components/organisms/Navbar';
 import MainBanner from '../components/organisms/MainBanner';
 import TransactionStep from '../components/organisms/TransactionStep';
@@ -14,6 +15,14 @@ export default function Home() {
   }, []);
   return (
     <>
+      <Head>
+        <title>StoreGG - Get a New Experiencein Gaming</title>
+        <meta name="description" content="Kami menyediakan jutaan cara untuk membantu players menjadi pemenang sejati" />
+        <meta property="og:title" content="StoreGG - Get a New Experiencein Gaming" />
+        <meta property="og:description" content="Kami menyediakan jutaan cara untuk membantu players menjadi pemenang sejati" />
+        <meta property="og:image" content="" />
+        <meta property="og:url" content="" />
+      </Head>
       <Navbar />
       <MainBanner />
       <TransactionStep />
