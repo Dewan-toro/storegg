@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/no-static-element-interactions */
 import Image from 'next/image';
 import cx from 'classnames';
 import Link from 'next/link';
@@ -19,7 +20,9 @@ export default function MenuItem(props: Partial<MenuItemProps>) {
     'mb-30': true,
     active,
   });
+
   return (
+    // eslint-disable-next-line jsx-a11y/click-events-have-key-events
     <div className={classItem} onClick={onClick}>
       <div className="me-3">
         <Image src={`/icon/${icon}.svg`} width={25} height={25} />
@@ -36,7 +39,6 @@ export default function MenuItem(props: Partial<MenuItemProps>) {
             </a>
           </Link>
         )}
-
       </p>
     </div>
   );
